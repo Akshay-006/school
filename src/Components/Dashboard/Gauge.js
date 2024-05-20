@@ -15,7 +15,7 @@ export default function ArcDesign() {
         },
       }}
       text={
-        ({ value, valueMax }) => `${value} / ${valueMax}`
+        ({ value, valueMax }) => `${value} / 1000`
       }
     />
   );

@@ -6,6 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 
 import Typography from '@mui/material/Typography';
+import violetimage from './violet.jpeg'
 
 
 const card = (
@@ -19,7 +20,7 @@ const card = (
         <CardMedia 
           sx={{height: 44, width: 44}}
           component='img'
-          image='./violet.jpeg' 
+          image={violetimage}
         />
       </Box>
       <Typography variant="h5" component="div">

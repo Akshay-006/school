@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: 339px 300px 288px;
+    grid-template-rows: 117px 117px  117px 117px;
+    gap: 50px;
+    
+}
+
+.gauge{
+    grid-row: span 2;
+    border-radius: 50%;
+    border-color: #000;
+}
+
+.bar{
+    grid-column: span 2;
+}
+
+.cash{
+    background-color: #000;
+}

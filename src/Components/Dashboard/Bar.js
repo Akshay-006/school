@@ -8,8 +8,8 @@ const data = {
   labels: ['1A', '1B', '2A', '2B', '3A', '4', '5', '6A', '6B', '7', '8', '9'],
   datasets: [
     {
-      label: 'Fee Collected',
-      data: [50000, 75000, 100000, 200000, 150000, 125000, 175000, 100000, 50000, 60000, 40000, 75000],
+      
+      data: [50000, 175000, 160000, 195000, 100000, 150000, 25000, 175000, 90000, 23000, 20000, 123000],
       backgroundColor: 'rgba(75, 192, 192, 0.6)',
     },
   ],
@@ -42,6 +42,7 @@ const chartSetting = {
 export default function FeeCollectedBarChart() {
   return (
     <Card variant='outlined'>
+      Fee Collected Classwise :
       <BarChart
         dataset={dataset}
         xAxis={[

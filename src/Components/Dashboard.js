@@ -8,34 +8,41 @@ import OutlinedCard4 from './Dashboard/TodaysExpenses';
 import AlignedCard2 from './Dashboard/TransportFee';
 import AlignedCard from './Dashboard/TutionFee';
 import { Box, Typography } from '@mui/material';
+import './Dashboard.css';
+import ArcDesign from './Dashboard/Gauge';
+import Card from '@mui/material/Card';
 
 const Dashboard = () => {
   return (
-    <Box sx={{ flexGrow: 1, padding: 2 }}>
-      <Grid container spacing={3} >
-        <Grid item xs={12} md={4} spacing={3}>
-          <OutlinedCard/>
-        </Grid>
-        <Grid item xs={12} md={4} spacing={3}>
-        <OutlinedCard3/>
-        </Grid>
-        <Grid item xs={12} md={4} spacing={3}>
-          <OutlinedCard2/>
-        </Grid>
-        <Grid item xs={12} md={4} spacing={3}>
+    <div className='container'>
+      <div className='card1 cash' >
         <OutlinedCard/>
-        </Grid>
-        <Grid item xs={12} md={4} spacing={3}>
-          <AlignedCard/>
-        </Grid>
-        <Grid item xs={12} md={4} spacing={3}>
-          <FeeCollectedBarChart/>
-        </Grid>
-        <Grid item xs={12} md={4} spacing={3}>
-          <AlignedCard2/>
-        </Grid>
-      </Grid>
-    </Box>
+      </div>
+      <div className='gauge'> 
+        Fee Collection Progress    
+          <ArcDesign/>
+              
+      </div>
+      <div className='card3'>
+        <OutlinedCard3/>
+      </div>
+      <div className='card4 cash'>
+        <OutlinedCard2/>
+      </div>
+      <div className='card5'>
+        <OutlinedCard4/>
+      </div>
+      <div className='card6'>
+        <AlignedCard/>
+      </div>
+      <div className='bar'>
+        <FeeCollectedBarChart/>
+      </div>
+      <div className='card8'>
+        <AlignedCard2/>
+      </div>
+
+    </div>
   );
 };
 
