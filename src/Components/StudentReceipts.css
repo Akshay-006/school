@@ -1,0 +1,25 @@
+.container1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav{
+    height: 36px;
+    display: flex;
+    justify-content: flex-end;
+    width: 580px;
+}
+
+.dropdownmenu1{
+    padding-right: 40px;
+}
+
+.search{
+    height:36px;
+    padding-right: 40px;
+}
+
+.findbutton{
+    height: 36px;
+}
+

@@ -15,6 +15,8 @@ import ArcDesign from './Dashboard/Gauge';
 import OutlinedCard3 from './Dashboard/CollectedFee';
 import OutlinedCard4 from './Dashboard/TodaysExpenses';
 import FeeCollectedBarChart from './Dashboard/Bar';
+import CustomersTable from './Student Receipts/Table1';
+import StudentReceipts from './StudentReceipts';
 
 
 
@@ -78,7 +80,9 @@ export default function BasicTabs() {
         Student
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Student Receipts
+        
+        <br/>
+        <StudentReceipts/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
         Expenses

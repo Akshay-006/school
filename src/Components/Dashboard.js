@@ -8,15 +8,18 @@ import OutlinedCard4 from './Dashboard/TodaysExpenses';
 import AlignedCard2 from './Dashboard/TransportFee';
 import AlignedCard from './Dashboard/TutionFee';
 import { Box, Typography } from '@mui/material';
-import './Dashboard.css';
 import ArcDesign from './Dashboard/Gauge';
 import Card from '@mui/material/Card';
+import TotalCustomers from './Dashboard/CardCash';
+import './Dashboard.css'
+
+
 
 const Dashboard = () => {
   return (
     <div className='container'>
       <div className='card1 cash' >
-        <OutlinedCard/>
+        <TotalCustomers trend='up' value='1,50,000.00' diff='25' title='Cash Flow : Collected' />
       </div>
       <div className='gauge'> 
         Fee Collection Progress    
@@ -27,7 +30,7 @@ const Dashboard = () => {
         <OutlinedCard3/>
       </div>
       <div className='card4 cash'>
-        <OutlinedCard2/>
+        <TotalCustomers color='#000' value='1,50,000.00' diff='21' trend='up' title='Cash Flow : Spent'/>
       </div>
       <div className='card5'>
         <OutlinedCard4/>
