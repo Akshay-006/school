@@ -1,0 +1,88 @@
+.gridcontainer{
+    width: 1172px;
+    height: 761px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gridcontainer2{
+    display: grid;
+    grid-template-columns: 234px 234px 234px 234px 234px;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+
+
+
+.hold{
+    display: flex;
+    justify-content: space-between;
+    width: 993px;
+}
+
+.bank{
+    border-color: black;
+    border: 1px;
+}
+
+.gridcontainer3{
+    display: grid;
+    grid-template-columns: 251px 367px 211px;
+    row-gap: 10px;
+}
+
+.plo{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    align-content: center;
+    width: 993px;
+}
+
+.pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plot{
+    display: flex;
+    width: 485px;
+}
+
+.grey{
+    background-color: #F5F1FE;
+    width: 242px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.blue{
+    background-color: #379AE6;
+    width: 242px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.but{
+    width: 1172px;
+    height: 150px;
+    align-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    
+    width: 1172px;
+    height: 50px;
+
+}

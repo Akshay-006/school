@@ -1,0 +1,25 @@
+.container2{
+    display: flex;
+    justify-content: flex-end;
+    width: 1172px;
+}
+
+.nav2{
+    height: 36px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdownmenu2{
+    padding-right: 40px;
+}
+
+.search2{
+    height:36px;
+    padding-right: 40px;
+}
+
+.billingbutton{
+    height: 36px;
+}
+

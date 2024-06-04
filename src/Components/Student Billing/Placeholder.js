@@ -1,0 +1,15 @@
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+
+export default function FullWidthTextField() {
+  return (
+    <Box
+      sx={{
+        width: '79%',  
+      }}
+    >
+      <TextField fullWidth label="Special Instruction Text or Comments" id="fullWidth" />
+    </Box>
+  );
+}

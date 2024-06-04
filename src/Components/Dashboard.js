@@ -11,7 +11,7 @@ import { Box, Typography } from '@mui/material';
 import ArcDesign from './Dashboard/Gauge';
 import Card from '@mui/material/Card';
 import TotalCustomers from './Dashboard/CardCash';
-import './Dashboard.css'
+import './Assets/Dashboard.css';
 
 
 

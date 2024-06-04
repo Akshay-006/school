@@ -17,6 +17,7 @@ import OutlinedCard4 from './Dashboard/TodaysExpenses';
 import FeeCollectedBarChart from './Dashboard/Bar';
 import CustomersTable from './Student Receipts/Table1';
 import StudentReceipts from './StudentReceipts';
+import StudentBilling from './StudentBilling';
 
 
 
@@ -77,7 +78,7 @@ export default function BasicTabs() {
         
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Student
+        <StudentBilling/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         
