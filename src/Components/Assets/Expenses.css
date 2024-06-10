@@ -1,0 +1,40 @@
+.billexp{
+    width: 1253px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expgrid{
+    display: grid;
+    grid-template-columns: 86px 186px 143px 143px 143px 115px 115px 48px 48px;
+    column-gap: 25px;
+    grid-auto-rows: 68px;
+}
+
+.action{
+    grid-column: span 2;
+}
+
+.lol{
+    width: 1172px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gr{
+    background-color: #F5F1FE;
+    width: 242px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90px;
+}
+
+.bl{
+    background-color: #379AE6;
+    width: 242px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}

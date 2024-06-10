@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from "react";
-import '../Assets/StudentReceipts.css';
+import '../Assets/ExpenseSummary.css';
 import { Button } from "@mui/material";
-import EditIcon from '@mui/icons-material/Edit';
 
 export default function SummaryGrid(){
   // Initial rows data
@@ -10,30 +9,35 @@ export default function SummaryGrid(){
       id: 1,
       refNumber: "228-3844-931-7689",
       date: "Oct 20, 2022",
+      description: "New",
       amount: 250
     },
     {
         id: 2,
         refNumber: "228-3844-931-7689",
         date: "Nov 26, 2022",
+        description: "New",
         amount: 500
       },
     {
         id: 2,
         refNumber: "228-3844-931-7689",
         date: "Nov 26, 2022",
+        description: "New",
         amount: 500
     },
     {
         id: 2,
         refNumber: "228-3844-931-7689",
         date: "Nov 26, 2022",
+        description: "New",
         amount: 500
     },
     {
         id: 2,
         refNumber: "228-3844-931-7689",
         date: "Nov 26, 2022",
+        description: "New",
         amount: 500
     }
   ]);
@@ -44,6 +48,7 @@ export default function SummaryGrid(){
       id: rows.length + 1,
       refNumber: "123-4567-890-1234",
       date: "Nov 1, 2022",
+      description: "New Item",
       amount: 300
     };
     setRows([...rows, newRow]);
@@ -52,22 +57,20 @@ export default function SummaryGrid(){
   return (
     <Fragment>
       <div className="summary">
-        <div className="grid-item">NO.</div>
-        <div className="grid-item">Receipt Number</div>
-        <div className="grid-item">Billing Date</div>
+        <div className="grid-item">S.No.</div>
+        <div className="grid-item">Ref Number</div>
+        <div className="grid-item">Date</div>
+        <div className="grid-item">Description</div>
         <div className="Amount grid-item">Amount</div>
-        <div className="grid-item">Action</div>
         {rows.map((row) => (
           <Fragment key={row.id}>
             <div className="items">{row.id}</div>
             <div className="items">{row.refNumber}</div>
             <div className="items">{row.date}</div>
+            <div className="items">{row.description}</div>
             <div className="items">{row.amount}</div>
             <div className="items">
-              <Button variant="contained">Print</Button>
-            </div>
-            <div className="items">
-              <Button variant="outlined"><EditIcon/></Button>
+              <Button variant="contained">Detail</Button>
             </div>
           </Fragment>
         ))}

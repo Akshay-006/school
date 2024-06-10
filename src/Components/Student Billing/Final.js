@@ -4,18 +4,13 @@ import InputAdornment from '@mui/material/InputAdornment';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import { MagnifyingGlass as MagnifyingGlassIcon } from '@phosphor-icons/react';
 
-export default function CustomersFilters({val}) {
+export default function CustomersFilters3({val}) {
   return (
     <Card >
       <OutlinedInput
         defaultValue=""
         fullWidth
         placeholder={val}
-        startAdornment={
-          <InputAdornment position="start">
-            <MagnifyingGlassIcon fontSize="var(--icon-fontSize-md)" />
-          </InputAdornment>
-        }
         sx={{ maxWidth: '500px', height:'36px' }}
       />
     </Card>

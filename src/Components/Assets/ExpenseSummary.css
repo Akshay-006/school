@@ -1,26 +1,8 @@
 .summary{
     display: grid;
-    grid-template-columns: 83px 425px 249px 280px 107px 101px;
+    grid-template-columns: 83px 225px 249px 280px 107px 101px;
     grid-auto-rows: 72px;
 }
-
-.container1{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.nav{
-    display: flex;
-}
-
-.dropdownmenu1{
-    padding-right: 40px;
-}
-
-.search{
-    padding-right: 40px;
-}
-
 
 .header{
     display: flex;

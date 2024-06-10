@@ -9,6 +9,7 @@ import SaveIcon from '@mui/icons-material/Save';
 import '../Assets/Grid1.css';
 import BasicTextFields from './Placeholder';
 import UseFormControl from './TextField';
+import CustomersFilters3 from './Final';
 
 
 
@@ -68,9 +69,9 @@ export default function BasicTabs1() {
                         <div><Typography>Bank</Typography></div>
                         <div><Typography>Payment Mode</Typography></div>
                         <div><Typography>Transfer Ref</Typography></div>
-                        <div><UseFormControl val='International Bank'/></div>
-                        <div><UseFormControl val='Credit Card / Debit Card / UPI / Online net Banking'/></div>
-                        <div><UseFormControl val='123/1000/321'/></div>
+                        <div><CustomersFilters3 val='International Bank'/></div>
+                        <div><CustomersFilters3 val='Credit Card / Debit Card / UPI / Online net Banking'/></div>
+                        <div><CustomersFilters3 val='123/1000/321'/></div>
                         
                         
                     </div>

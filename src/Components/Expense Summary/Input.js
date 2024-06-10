@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '@mui/material/Card';
 import InputAdornment from '@mui/material/InputAdornment';
 import OutlinedInput from '@mui/material/OutlinedInput';
-import { MagnifyingGlass as MagnifyingGlassIcon } from '@phosphor-icons/react';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
 export default function CustomersFilters({val}) {
   return (
@@ -13,7 +13,7 @@ export default function CustomersFilters({val}) {
         placeholder={val}
         startAdornment={
           <InputAdornment position="start">
-            <MagnifyingGlassIcon fontSize="var(--icon-fontSize-md)" />
+            <CalendarMonthIcon/>
           </InputAdornment>
         }
         sx={{ maxWidth: '500px', height:'36px' }}

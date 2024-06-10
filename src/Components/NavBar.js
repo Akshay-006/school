@@ -18,6 +18,9 @@ import FeeCollectedBarChart from './Dashboard/Bar';
 import CustomersTable from './Student Receipts/Table1';
 import StudentReceipts from './StudentReceipts';
 import StudentBilling from './StudentBilling';
+import ExpenseSummary from './ExpenseSummary';
+import Expenses from './Expenses';
+
 
 
 
@@ -80,16 +83,15 @@ export default function BasicTabs() {
       <CustomTabPanel value={value} index={1}>
         <StudentBilling/>
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        
+      <CustomTabPanel value={value} index={2}>   
         <br/>
         <StudentReceipts/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
-        Expenses
+        <Expenses/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={4}>
-        Expense Summary
+        <ExpenseSummary number='150'/>
       </CustomTabPanel>
     </Box>
   );

@@ -12,7 +12,7 @@ const StudentReceipts = () => {
             <div className="container1">
                 <div className="nav">
                     <div className="dropdownmenu1"><CustomizedMenus value='Class'/></div>
-                    <div className="search"><CustomersFilters/></div>
+                    <div className="search"><CustomersFilters val='Student'/></div>
                     <div className="findbutton"><Button variant="contained">Find Receipts</Button></div>          
                 </div>
             </div>

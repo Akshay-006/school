@@ -10,6 +10,7 @@ import FullWidthTextField from "./Placeholder";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import PrintIcon from '@mui/icons-material/Print';
 import SaveIcon from '@mui/icons-material/Save';
+import CustomersFilters3 from "./Final";
 
 
 export default function Grid1({name, cl, billnumber,pay,dis}){
@@ -34,13 +35,13 @@ export default function Grid1({name, cl, billnumber,pay,dis}){
                     <div className="feedis2">Fee Amount</div>
                     <div></div>
                     <div><CustomizedMenus value='Fee Type'/></div>
-                    <div><UseFormControl val='Fee Amount'/></div>
-                    <div><UseFormControl val='Fee Discounts %'/></div>
+                    <div><CustomersFilters3 val='Fee Amount'/></div>
+                    <div><CustomersFilters3 val='Fee Discounts %'/></div>
                     <div>15,000.00</div>
                     <div></div>
                     <div><CustomizedMenus value='Fee Type'/></div>
-                    <div><UseFormControl val='Fee Amount'/></div>
-                    <div><UseFormControl val='Fee Discounts %'/></div>
+                    <div><CustomersFilters3 val='Fee Amount'/></div>
+                    <div><CustomersFilters3 val='Fee Discounts %'/></div>
                     <div>15,000.00</div>
                     <div className="add"><Button variant="text"><AddCircleOutlineIcon/> Add Item </Button></div>
                 </div>
