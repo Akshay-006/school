@@ -23,11 +23,10 @@ const Dashboard = () => {
       </div>
       <div className='gauge'> 
         Fee Collection Progress    
-          <ArcDesign/>
-              
+          <ArcDesign/>       
       </div>
       <div className='card3'>
-        <OutlinedCard3/>
+        <OutlinedCard3 />
       </div>
       <div className='card4 cash'>
         <TotalCustomers color='#000' value='1,50,000.00' diff='21' trend='up' title='Cash Flow : Spent'/>
@@ -36,13 +35,13 @@ const Dashboard = () => {
         <OutlinedCard4/>
       </div>
       <div className='card6'>
-        <AlignedCard/>
+        <AlignedCard col='2,28,000.00' out='72,500.00'/>
       </div>
       <div className='bar'>
         <FeeCollectedBarChart/>
       </div>
       <div className='card8'>
-        <AlignedCard2/>
+        <AlignedCard2 col='2,28,000.00' out='72,500.00'/>
       </div>
 
     </div>

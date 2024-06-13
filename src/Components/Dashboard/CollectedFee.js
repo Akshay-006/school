@@ -13,7 +13,7 @@ const card = (
   <React.Fragment>
     <CardContent>
       <Box display={'flex'} justifyContent={'space-between'}>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        <Typography sx={{ fontSize: 14, fontFamily: 'Manrope', fontWeight: 'bold' }} color="text.secondary" gutterBottom>
           Todays's Collected Fee:
         </Typography>
         <br/>
@@ -23,7 +23,7 @@ const card = (
           image={violetimage}
         />
       </Box>
-      <Typography variant="h5" component="div">
+      <Typography variant="h5" component="div" sx={{fontFamily: 'Lexend', color: '#6D31ED'}}>
         22,000.00
       </Typography>
     </CardContent>

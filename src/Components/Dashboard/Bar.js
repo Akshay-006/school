@@ -41,10 +41,11 @@ const chartSetting = {
 
 export default function FeeCollectedBarChart() {
   return (
-    <Card variant='outlined'>
+    <Card variant='outlined' sx={{fontFamily:'Lexend', fontWeight: '600'}}>
       Fee Collected Classwise :
       <BarChart
         dataset={dataset}
+        sx={{fontFamily:'Manrope'}}
         xAxis={[
           { scaleType: 'band', dataKey: 'label' },
         ]}

@@ -23,3 +23,105 @@
     height: 36px;
 }
 
+.container5{
+    height: 1182px;
+    width: 1159px;
+    
+}
+
+.heading2{
+    height: 88px;
+    width: 1159px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stuname{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 120px 150px 114px 72px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.b12b{
+    grid-column: span 3;
+}
+.billno2{
+    width: 250px;
+    height: 50%;
+    display: grid;
+    row-gap: 10px;
+    
+
+}
+
+.bill2{
+    display: flex;
+    width: 250px;
+}
+
+.feecontainer{
+    display: grid;
+    grid-template-columns: 91px 347px 465px 215px;
+    column-gap: 50px;
+    grid-auto-rows: 72px;
+}
+
+.amt3{
+    display: flex;
+    justify-content: flex-end ;
+}
+
+.boxamt{
+    width: 1182px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toamt{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F5F1FE;
+    width: 242px;
+    height: 88px;
+    padding-right: 10px;
+}
+
+.paymentmethod{
+    width: 1182px;
+}
+
+.payid{
+    display: grid;
+    grid-template-columns: 251px 367px 211px;
+    column-gap: 40px;
+    row-gap: 10px;
+}
+
+.buttons5{
+    width: 1052px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    height: 52px;
+}
+
+.bu1{
+    background-color: #62CD14;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bu2{
+    background-color: #379AE6;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}

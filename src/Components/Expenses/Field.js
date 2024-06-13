@@ -11,7 +11,7 @@ export default function Input1({val}) {
         varia
         placeholder={val}
         fullWidth={false}
-        sx={{ height:'35px', width:'143px', border: 'none' }}
+        sx={{ height:'35px', border: 'none' }}
       />
     </Card>
   );

@@ -20,6 +20,8 @@ import StudentReceipts from './StudentReceipts';
 import StudentBilling from './StudentBilling';
 import ExpenseSummary from './ExpenseSummary';
 import Expenses from './Expenses';
+import AddItem from './Expenses/AddItem';
+import BillingPrint from './Student Billing/BillingPrint';
 
 
 
@@ -66,7 +68,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '50%' }}>
+    <Box sx={{ width: '75%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Dashboard" {...a11yProps(0)} />
@@ -74,6 +76,8 @@ export default function BasicTabs() {
           <Tab label="Student receipts" {...a11yProps(2)} />
           <Tab label="Expenses" {...a11yProps(3)} />
           <Tab label="Expense Summary" {...a11yProps(4)} />
+          <Tab label="Expense 1" {...a11yProps(5)} />
+          <Tab label="Billing Print" {...a11yProps(6)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
@@ -92,6 +96,12 @@ export default function BasicTabs() {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={4}>
         <ExpenseSummary number='150'/>
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={5}>
+        <AddItem/>
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={6}>
+        <BillingPrint/>
       </CustomTabPanel>
     </Box>
   );

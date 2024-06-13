@@ -2,6 +2,8 @@
     width: 1253px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Manrope';
+    font-weight: 1000;
 }
 
 .expgrid{
@@ -37,4 +39,100 @@
     justify-content: center;
     align-content: center;
 
+}
+
+.close{
+    display: flex;
+    justify-content: space-between;
+    width: 1265px;
+    height: 61px;
+}
+
+.addi{
+    width: 1332px;
+    height: 727px;
+}
+
+.ki{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lot{
+    display: grid;
+    grid-template-columns: 446px 176px 242px ;
+    column-gap: 50px;
+    grid-auto-rows: 59px;
+    row-gap: 20px;
+
+}
+
+.box{
+    width: 242px;
+    height: 88px;
+    background-color: #F5F1FE;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flox{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.expremarks{
+    display: grid;
+    grid-template-columns: 210px 30px;
+    grid-template-rows: 210px 30px;
+}
+
+.blue{
+    background-color: #98DBFC;
+}
+
+.blue1{
+    width: 240px;
+    height: 210px;
+    grid-column: span 2;
+}
+
+
+.blue3{
+    width: 210px;
+    height: 30px;
+    grid-column: span 2;
+}
+
+.field{
+    background-color: #379AE6;
+}
+
+.payment{
+    width: 1070px;
+    height: 403px;
+}
+
+.pay2{
+    display: grid;
+    grid-template-columns: 488px 485px ;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+
+.warning{
+    background-color: #F5F1FE;
+    display: flex;
+    width: 1000px;
+    height: 76px;
+    padding-left: 50px;
+}
+
+.addbuton{
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kol{
+    background-color: #379AE6;
 }
